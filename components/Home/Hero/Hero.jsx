@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 export default function Hero() {
     return (
-        <div id='home' className='w-full pt-[22vh] md:pt-[12vh] lg:pt-[12vh]  pb-20 bg-[#f7f6fb]'>
+        <div id='home' className='w-full pt-[12vh]  pb-20 bg-[#f7f6fb]'>
             <div className='lg:max-w-[80%] max-w-[80%] mx-auto flex justify-center'>
                 <div className='grid  grid-cols-1 lg:grid-cols-2 items-center'>
                     <div className='space-y-5'>
