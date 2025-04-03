@@ -2,9 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 export default function Hero() {
     return (
-        <div style="
-    padding-top: 120px id='home' className='w-full pt-[12vh]  pb-20 bg-[#f7f6fb]'>
-            <div className='lg:max-w-[80%] max-w-[80%] mx-auto flex justify-center'>
+        <div id='home' className='w-full pt-[12vh]  pb-20 bg-[#f7f6fb] '>
+            <div className='lg:max-w-[80%] max-w-[80%] mx-auto flex justify-center mt-10 md:mt-10 lg:mt-10'>
                 <div className='grid  grid-cols-1 lg:grid-cols-2 items-center'>
                     <div className='space-y-5'>
                         <div className='bg-white shadow-md px-5 flex space-x-3 items-center py-2 rounded-full w-fit'>
